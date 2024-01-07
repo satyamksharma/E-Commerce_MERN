@@ -7,14 +7,14 @@ const Header = () => {
             <Navbar
                 bg='dark'
                 variant='dark'
-                expand='lg'
+                expand='md'
                 collapseOnSelect
             >
                 <Container>
                     <Navbar.Brand href='/'>Digi Store</Navbar.Brand>
                     <Navbar.Toggle aria-controls='basic-navbar-nav' />
                     <Navbar.Collapse id='basic-navbar-nav'>
-                        <Nav>
+                        <Nav className='ms-auto'>
                             <Nav.Link href='/cart'>
                                 <FaShoppingCart /> Cart
                             </Nav.Link>
